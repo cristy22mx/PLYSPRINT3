@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+input[placeholder] {
+  //Texto cuando se escribe
+  color: black;
+}
+
+li>img {
+  padding-bottom: 10%;
+}
+
+nav {
+  padding: 20px 60px 20px 40px;
+}
+
+body > header > nav{
+  height: 20vh;
+  color: white;
+}
+
+#bs-example-navbar-collapse-1 > form > button{
+  margin-top:0.5vh; 
+}
+
+#bs-example-navbar-collapse-1> ul > button, #bs-example-navbar-collapse-1 > form > button{
+  background-color: #46b7fd;
+  margin-top:0.5vh; 
+}
+
+body > header{
+  background-color: #46B7FD;
+  padding: 0;
+  margin: 0;
+}
+
+
+.firstsection {
+  background-image: url("../assets/images/Background2.jpg");
+  height: 100vh;
+  background-position-y: bottom;
+  background-position-x: center;
+  background-size: cover;
+  width: 100%;
+  padding: 0;
+}
+
+.firstsection>.row>.col-lg-5 {
+  background-color: #F7B617;
+  margin-top: 20vh;
+}
+
+/* Footer  */
+
+footer{
+  background-color: #46B7FD;
+}
+
+
+
+/*Pantalla de usuario*/ 
+
+#headerUser{
+  margin: 0;
+  padding: 0;
+}  
+
+
+#headerUser > nav{
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  border:none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#headerUser > nav > div > div{
+  margin: 0;
+  padding: 0;
+}
+
+.secondsection{
+  background-image: url(../assets/images/Background1.jpg);
+  height:40vh;
+}
+
+#bs-example-navbar-collapse-1 > form > div > ul > button{
+  margin-right:35vh;
+}
+
+body > div > main{
+  background-image: url(../assets/images/background1.png);
+  background-repeat:repeat;
+}
+
+[class^="col-"]{
+  height: auto;
+  margin-top: 10px;
+  margin-bottom:10px;
+  text-align:center;
+  line-height:50px;
+  color:black;
+}
+
+[class*="offset"] {
+  background-color:white;
+}
+
+
+/*Vista addcontac*/
+
+body > section > div > div > div > p{
+  color: black;
+}
+
+.addContact{
+  margin: 20px;
+}
