@@ -15,7 +15,7 @@
 
 El reto consiste en desarrollar una solución digital, una red social, donde puedan compartir e interactuar los músicos:
 
-![PLY](../assets/images/index1.jpeg) 
+![PLY](assets/images/index1.jpg) 
 
 ## Detalles adicionales 
 
