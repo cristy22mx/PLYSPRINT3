@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/main.css">
   <title>Addcontac</title>
@@ -14,44 +14,70 @@
 
 <body>
   <!--     Ventana de inicio -->
-<header id="headerUser">
-    <nav class="navbar navbar-inverse">
+  <header id="headerUser">
+    <nav class="navbar navbar-default navbar-fixed-top header">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="../assets/images/logo.jpg" alt=""></a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a href="#" style="color:black">Juan Luna</a></li>
-        </ul>
-        <form class="navbar-form navbar-left hidden-xs" action="/action_page.php">
-          <div class="input-group">
-            <button type="button" class="btn btn-primary">Buscar amigos</button>
-            </div>
+        <div class="row">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="../assets/images/logo1.png" alt="logo-img">
           </div>
-        </form>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></a></li>
+
+            </ul>
+          </div>
+        </div>
       </div>
-    </nav> 
-</header>  
+    </nav>
+  </header>
+  <!-- ***************************** Primera seccion (pag 3) ***************************** -->
+
+  <section>
+    <div class="container-fluid pag2">
+      <div class="row">
+        <div class="col-lg-4 boxtext3">
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2 class="text-center lead"><strong>Sugerencias de Amistades.</strong></h2>
+          <p class="text-center">Conoce gente atraves de tus gustos Musicales.</p>
+
+          <p class="text-center">Intercambia conocimientos Musicales</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button type="button" class="btn btn-primary">Buscar amigos</button>
+
   <section class="container col-md-6 col-md-offset-5 col-sm-4 col-sm-offset-8" id="addContact">
     <div class="col-md-6 col-md-offset-5 col-sm-4 col-sm-offset-8">
       <div class="card" style="width: 36rem;">
         <img class="card-img-top" src="../assets/images/foto.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Matías Romero</h5>
-          <button>Hacerlo mi amigo</button>
+          <button onclick=" location.href='../views/addcontac1.html' ">Hacerlo mi amigo</button>
         </div>
-      </div>  
+      </div>
     </div>
   </section>
-
-
-
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="../js/data.js"></script>
-  <script src="../js/app2.js"></script>
+  <script src="../js/app3.js"></script>
 </body>
+
 </html>

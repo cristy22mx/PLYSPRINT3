@@ -1,25 +1,202 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Red Social</title>
-  </head>
-  <body>
+<html lang="en">
 
-    <h1>Inicia sesión</h1>
-    	<button id="login">
-    		Inicia con Google
-    	</button>
-    	<div id="root"></div>
-    	<button id="guardar">
-    		Guardar
-    	</button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RED SOCIAL</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+  <!-- ***************************** Header ***************************** -->
+
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top header">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="../assets/images/logo1.png" alt="logo-img">
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">
+                  <div id="photo"></div>
+                </a>
+              </li>
+              <li><a href="#"></a>
+                <div id="email"></div>
+              </li>
+
+              <li><a href="#"><button id="login">
+                Perfil
+              </button></a></li>
+              <li><a href="#"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></a></li>
+              <div id="name"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ***************************** Primera seccion (pag 2) ***************************** -->
+
+    <section>
+      <div class="container-fluid pag2">
+        <div class="row">
+          <div class="col-lg-4 boxtext3">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="text-center lead"><strong>PLY</strong></h2>
+            <p class="text-center">Obten beneficios al ayudar a compartir, ingresar y publicar tu musica.</p>
+
+            <p class="text-center"> Conoce gente atraves de tus gustos Musicales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***************************** Segunda Seccion seccion (pag 2) ***************************** -->
+
+    <section>
+      <div class="container-fluid" id="public">
+        <h1>Comparte tu Estado!!</h1>
+        <div class="col-sm-2">
+          <form id="formulario">
+            <div class="form-group">
+              <label for="mensaje">Publica:</label>
+              <textarea name="mensaje" rows="8" cols="80" id="mensaje"></textarea>
+            </div>
+            <input type="submit" name="" value="Publicar!" id="btn-public">
+          </form>
 
 
-<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="../js/app.js"></script>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <h1 class="text-center msj">Publicaciones</h1>
+            <div class="panel-body" id="fondo-mensajes">
+              <!-- Aparece el texto que ingresa el usuario -->
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body" id="cont-img">
+              <h1 class="text-center"> Galeria </h1>
+              <img src="../assets/images/foto2.jpg" width="45%" alt="">
+              <img src="../assets/images/laboratoria.png" width="50%" alt="">
+              <img src="../assets/images/mar.png" width="45%" alt="">
+              <img src="../assets/images/foto.jpg" width="45%" alt="">
+              <img src="../assets/images/foto4.jpg" width="45%" alt="">
+              <img src="../assets/images/band2.jpg" width="45%" alt="">
+              <img src="../assets/images/fem.png" width="45%" alt="">
+              <img src="../assets/images/star.jpg" width="45%" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-body" id="menu-cont">
+              <h1 class="text-center">Menu</h1>
+              <div class="list-group">
+                <a href="../views/addcontac.html" class="list-group-item">Contactos</a>
+                <a href="#" class="list-group-item">Explorar</a>
+                <a href="#" class="list-group-item">Recomendaciones</a>
+                <a href="#" class="list-group-item">Registro de Actividad</a>
+                <a href="#" class="list-group-item">Informacion</a>
+                <a href="#" class="list-group-item">Ayuda</a>
+                <a href="#" class="list-group-item">Idioma</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <!--Pie de página Menú, redes sociales y copyright  -->
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 logofarea">
+          <img src="../assets/images/logo1.png" alt="Logo">
+        </div>
+      </div>
+      <hr>
+      <!-- Menú  -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-lg-3 col-lg-offset-3">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">Conoce</a></li>
+              <li><a href="#">Comunidades</a></li>
+              <li><a href="#">Musica</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">API de PLY</a></li>
+              <li><a href="#">Eventos</a></li>
+              <li><a href="#">Conciertos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Redes sociales e iconos de tiendas en línea de apps -->
+      <div class="row media">
+        <div class="col-lg-2 col-lg-offset-1 mediaarea">
+          <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+          <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+          <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+          <span><i class="fa fa-apple" aria-hidden="true"></i></span>
+          <span><i class="fa fa-play" aria-hidden="true"></i></span>
+        </div>
+      </div>
+      <hr>
+      <!-- Copyright -->
+      <div class="row copyright">
+        <div class="col-lg-12">
+          <span class="glyphicon glyphicon glyphicon-copyright-mark" aria-hidden="true" color="white"><p> 2019 PLY Music Inc.</p></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/app2.js"></script>
 </body>
+
 </html>

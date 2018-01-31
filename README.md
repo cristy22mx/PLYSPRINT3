@@ -9,18 +9,20 @@
 
 3. Elaboración de un check list con los lineamientos y alcances del proyecto.
 
-4. Identificar los componentes que podían resolver con más aceptación la problemática del target. 
+4. Identificar los componentes que podían resolver con más aceptación la problemática del target.
 
 ## Objetivo
 
 El reto consiste en desarrollar una solución digital, una red social, donde puedan compartir e interactuar los músicos:
 
-![PLY](assets/images/index1.jpg) 
-![PLY](assets/images/index2.jpg) 
-![PLY](assets/images/index3.jpg) 
-![PLY](assets/images/index4.jpg) 
+![PLY](./assets/images/pag1.jpg)
+![PLY](./assets/images/pag2.jpg)
+![PLY](./assets/images/pag3.jpg)
+![PLY](./assets/images/pag4.jpg)
+![PLY](./assets/images/pag5.jpg)
+![PLY](./assets/images/pag6.jpg)
 
-## Detalles adicionales 
+## Detalles adicionales
 
 Para el proceso del desarrollo de la idea se utilizó la técnica de Desing Thinking
 
@@ -32,7 +34,9 @@ Para el proceso del desarrollo de la idea se utilizó la técnica de Desing Thin
 
 4. Prototipamos (Elaboramos los bocetos de la idea
 
-![PLY](https://))
+![PLY](./assets/images/boceto1.jpeg)
+![PLY](./assets/images/boceto2.jpeg)
+![PLY](./assets/images/boceto3.jpeg)
 
 5. Probar (Evaluamos con el usuario si la solución presentada cumplia su objetivo).  
 
