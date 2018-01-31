@@ -1,16 +1,15 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-a {
+a, h2, p {
   color: white;
 }
 
 input[placeholder] {
-  //Texto cuando se escribe
-  color: black;
+  color: white;
 }
 
 li>img {
@@ -21,107 +20,229 @@ nav {
   padding: 20px 60px 20px 40px;
 }
 
-body > header > nav{
-  height: 20vh;
+span>img {
+  align-content: left;
+}
+
+.navbar-fixed-top {
+  padding: 0;
+  padding-bottom: 2%;
+  background: #420f46;
   color: white;
 }
 
-#bs-example-navbar-collapse-1 > form > button{
-  margin-top:0.5vh; 
+#bs-example-navbar-collapse-1>ul {
+  margin: 18px 42px;
 }
 
-#bs-example-navbar-collapse-1> ul > button, #bs-example-navbar-collapse-1 > form > button{
-  background-color: #46b7fd;
-  margin-top:0.5vh; 
+#bs-example-navbar-collapse-1>ul>li>a {
+  color: white;
 }
 
-body > header{
-  background-color: #46B7FD;
-  padding: 0;
+body>header>nav>div>div>div.navbar-header>img {
+  margin: 15px 30px;
+}
+
+#login {
+  padding: 5px;
+  background-color: #641269;
+  border-radius: 2px;
+  border-color: #641269;
+}
+
+.row {
   margin: 0;
+  padding: 0;
 }
 
+/* Segunda Seccion */
 
-.firstsection {
-  background-image: url("../assets/images/Background2.jpg");
-  height: 100vh;
-  background-position-y: bottom;
-  background-position-x: center;
+.second-sec {
+  background-image: url("../assets/images/Background1.jpg");
+  background-position: center;
   background-size: cover;
+  height: 70vh;
+  padding: 0;
+}
+
+#input1, #input2 {
+  background: none;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 5%;
+  height: 5vh;
+}
+
+.boxtext3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4%;
+  height: -webkit-fill-available;
+  float: left;
+}
+
+.boxtext3>p {
+  font-size: 18px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.col-lg-4>h2 {
+  padding: 15% 0% 2% 0%;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.col-lg-9 {
+  border: solid 2px white;
+  border-left: none;
+  padding: 0;
+  margin: 3% 3% 3% 0%;
+}
+
+.col-lg-12 {
+  margin: 0;
+}
+
+/* Tercera Seccion */
+
+.three-sec {
+  background-color: #13181c;
+  padding: 0;
+}
+
+body>main>div.container-fluid.three-sec>div>div.col-lg-4.col-lg-offset-2.col-md-10.col-md-offset-1.col-xs-10.col-xs-offset-1>div>img {
+  margin: 19px 60px;
+}
+
+body>main>div.container-fluid.three-sec>div>div.col-lg-4.col-lg-offset-1.col-lg-offset-8.col-xs-10.col-xs-offset-1.textbox4>div>span {
+  background-color: #13181c;
+}
+
+/* Carrucel */
+
+#carrucel {
+  background: #13181c;
+}
+
+.copyright>.col-lg-12>.glyphicon-copyright-mark {
+  color: white;
   width: 100%;
-  padding: 0;
 }
 
-.firstsection>.row>.col-lg-5 {
-  background-color: #F7B617;
-  margin-top: 20vh;
+.copyright>.col-lg-12>span>p {
+  display: inline;
+  padding-left: 1%;
 }
 
-/* Footer  */
-
-footer{
-  background-color: #46B7FD;
+.fa {
+  color: white;
+  padding-left: 5%;
 }
 
+/*  Clases para que el placeholder cambie de color de acuerdo a los navegadores*/
 
+.form-control::-webkit-input-placeholder {
+  color: white;
+  font-size: 14px;
+}
 
-/*Pantalla de usuario*/ 
+/* WebKit, Blink, Edge */
 
-#headerUser{
+.form-control:-moz-placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+/* Mozilla Firefox 4 to 18 */
+
+.form-control::-moz-placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+/* Mozilla Firefox 19+ */
+
+.form-control:-ms-input-placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+/* Internet Explorer 10-11 */
+
+.form-control::-ms-input-placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+/* Footer mobile estilos */
+
+.footer {
+  background-color: #003691;
+  padding: 10%;
+}
+
+.col-sm-12, .col-sm-3 {
   margin: 0;
   padding: 0;
-}  
+}
 
-
-#headerUser > nav{
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  border:none;
+.col-sm-3>.nav>li>a {
   margin: 0;
+  padding: 4% 0;
+}
+
+/* ++++++ Pagina Main +++++ */
+
+.pag2 {
+  background-image: url("../assets/images/Background2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
   padding: 0;
-  background-color: white;
 }
 
-#headerUser > nav > div > div{
-  margin: 0;
-  padding: 0;
+#public {
+  background: #8b0f3f;
+  color: white;
 }
 
-.secondsection{
-  background-image: url(../assets/images/Background1.jpg);
-  height:40vh;
+#btn-public {
+  background: #318dd0;
+  padding: 15px;
+  border: none;
 }
 
-#bs-example-navbar-collapse-1 > form > div > ul > button{
-  margin-right:35vh;
+#mensaje {
+  width: 200px;
+  height: 20vh;
+  background: #1b1322;
 }
 
-body > div > main{
-  background-image: url(../assets/images/background1.png);
-  background-repeat:repeat;
+#fondo-mensajes {
+  background: #1b1322;
 }
 
-[class^="col-"]{
-  height: auto;
-  margin-top: 10px;
-  margin-bottom:10px;
-  text-align:center;
-  line-height:50px;
-  color:black;
+.msj {
+  color: white;
+  background: #1b1322;
 }
 
-[class*="offset"] {
-  background-color:white;
+#cont-img {
+  background: #1b1322;
 }
 
-
-/*Vista addcontac*/
-
-body > section > div > div > div > p{
-  color: black;
+#menu-cont {
+  background: #1b1322;
 }
 
-.addContact{
-  margin: 20px;
+.list-group-item {
+  background: #318dd0;
+}
+
+#menu-cont>div>a {
+  color: white;
 }
